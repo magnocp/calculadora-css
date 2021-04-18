@@ -1,0 +1,95 @@
+body{    
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;      
+    
+}
+#container{
+    width: 300px;    
+    background-color: rgb(207, 204, 204);
+}
+header{
+    display: flex;
+    justify-content: space-between;  
+    padding-left: 10px;  
+    margin-bottom: 10px; 
+}
+#titulo{
+    margin-top: 5px;
+}
+#opcoes{
+    display: flex;    
+}
+button{
+    width: 40px;
+    height: 30px;    
+    padding: 0;  
+    border: none;
+    background-color: rgb(207, 204, 204);
+    cursor: pointer; 
+    outline: none; 
+    transition: 400ms; 
+}
+
+button div{
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #524e4e;     
+}
+button:hover{
+    background-color:  rgba(122, 122, 122, 0.911);
+}
+#fechar button:hover {
+    background-color:  rgba(255, 0, 0, 0.911);
+    color: white;
+}
+
+#tipo{
+    padding-left: 10px;  
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#conta{
+    text-align: right;
+    padding-right: 5px;
+    height: 30px;;
+}
+#mostrar{
+    text-align: right;
+    height: 50px;
+    font-size: 30px;
+    padding-right: 5px;
+}
+#numeros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+}
+.numero{   
+    height: 58px;  
+    background-color: rgb(221, 221, 221);       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+.numero.cinza{
+    background-color: rgb(182, 180, 180);
+}
+
+.numero:hover{
+    background-color: rgb(128, 128, 128);
+}
+.numero.igual{
+    background-color: rgba(70, 175, 216, 0.788);
+}
+.numero.igual:hover{
+    background-color: rgb(0, 183, 255);
+}
+
+.numero p{
+    text-align: center;
+    margin: 0;
+}
