@@ -1,59 +1,110 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Calculadora</title>
-        <link rel="stylesheet" href="assets/style.css">
-    </head>
-    <body>
-        <div id="container">
-            <header>
-                <div id="titulo">
-                    Calculadora
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="titulo">
+                Calculadora
+            </div>
+            <div id="opcoes">
+                <div id="minimizar"><button>__</button></div>
+                <div id="maximizar"><button>
+                        <div></div>
+                    </button></div>
+                <div id="fechar"><button>X</button></div>
+            </div>
+        </header>
+        <main>
+            <div id="tipo">Padrão</div>
+            <div id="conta"></div>
+            <div id="mostrar">0</div>
+            <div id="numeros">
+                <div class="numero cinza">
+                    <p>%</p>
                 </div>
-                <div id="opcoes">
-                    <div id="minimizar"><button>__</button></div>
-                    <div id="maximizar"><button><div></div></button></div>
-                    <div id="fechar"><button>X</button></div>
-                </div>                
-            </header>
-            <main>
-                <div id="tipo">Padrão</div>   
-                <div id="conta"></div>
-                <div id="mostrar">0</div>
-                <div id="numeros">                    
-                    <div class="numero cinza"><p>%</p></div>
-                    <div class="numero cinza"><p>CE</p></div>
-                    <div class="numero cinza"><p>C</p></div>
-                    <div class="numero cinza"><p>Apagar</p></div> 
-                    
-                    <div class="numero cinza">&frac12;</div>  
-                    <div class="numero cinza"><p>x²</p></div>
-                    <div class="numero cinza"><p>√</p></div>
-                    <div class="numero cinza"><p>÷</p></div>     
-                    
-                    <div class="numero"><p>7</p></div>  
-                    <div class="numero"><p>8</p></div>
-                    <div class="numero"><p>9</p></div>
-                    <div class="numero cinza"><p>X</p></div>    
+                <div class="numero cinza">
+                    <p>CE</p>
+                </div>
+                <div class="numero cinza">
+                    <p>C</p>
+                </div>
+                <div class="numero cinza">
+                    <p>Apagar</p>
+                </div>
 
-                    <div class="numero"><p>4</p></div>  
-                    <div class="numero"><p>5</p></div>
-                    <div class="numero"><p>6</p></div>
-                    <div class="numero cinza"><p>-</p></div>    
+                <div class="numero cinza">&frac12;</div>
+                <div class="numero cinza">
+                    <p>x²</p>
+                </div>
+                <div class="numero cinza">
+                    <p>√</p>
+                </div>
+                <div class="numero cinza">
+                    <p>÷</p>
+                </div>
 
-                    <div class="numero"><p>1</p></div>  
-                    <div class="numero"><p>2</p></div>
-                    <div class="numero"><p>3</p></div>
-                    <div class="numero cinza"><p>+</p></div>    
+                <div class="numero">
+                    <p>7</p>
+                </div>
+                <div class="numero">
+                    <p>8</p>
+                </div>
+                <div class="numero">
+                    <p>9</p>
+                </div>
+                <div class="numero cinza">
+                    <p>X</p>
+                </div>
 
-                    <div class="numero"><p>+/-</p></div>  
-                    <div class="numero"><p>0</p></div>
-                    <div class="numero"><p>,</p></div>
-                    <div class="numero igual"><p>=</p></div>   
-                </div>                
-            </main>
-        </div>
-        <script src="assets/scripts/script.js"></script>
-    </body>
+                <div class="numero">
+                    <p>4</p>
+                </div>
+                <div class="numero">
+                    <p>5</p>
+                </div>
+                <div class="numero">
+                    <p>6</p>
+                </div>
+                <div class="numero cinza">
+                    <p>-</p>
+                </div>
+
+                <div class="numero">
+                    <p>1</p>
+                </div>
+                <div class="numero">
+                    <p>2</p>
+                </div>
+                <div class="numero">
+                    <p>3</p>
+                </div>
+                <div class="numero cinza">
+                    <p>+</p>
+                </div>
+
+                <div class="numero">
+                    <p>+/-</p>
+                </div>
+                <div class="numero">
+                    <p>0</p>
+                </div>
+                <div class="numero">
+                    <p>,</p>
+                </div>
+                <div class="numero igual">
+                    <p>=</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="assets/scripts/script.js"></script>
+</body>
+
 </html>
